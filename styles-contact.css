@@ -1,0 +1,74 @@
+.center {
+  margin: auto;
+  border-radius: 20%;
+  padding: 5%;
+  height: auto;
+  width: 50%;
+  background: rgba(251, 252, 252, 0.85);
+  text-align: center;
+  border: 10px solid gold;
+  }
+h1 {
+  font-family: obviously-extended, sans-serif;
+  font-size: 2em;
+  margin: 0px 10px 10px auto;
+  color: rgb(250, 61, 3);
+  text-align: center;
+  }
+h2 {
+  font-family: hatch, serif;
+  font-weight: 400;
+  font-size: 1.5em;
+  line-height: 1.4;
+  color: black;
+  text-align: center;
+  margin: 0px 30px 25px 0px;
+}
+p {
+  font-family: hatch, serif;
+  font-weight: 200;
+  font-size: 1.2em;
+  line-height: 1.6;
+  color: black;
+  margin: 0px 115px 25px 115px;
+  text-align: left;
+  font-style: italic;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+  margin: 20px;
+  background-image: url("images/skates.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+nav {
+  font-family: obviously-extended, sans-serif;
+  font-size: 1.2em;
+  width: 400px; 
+  margin: 0 auto;    
+  border: solid #1ECAD3;
+  border-width: 3px 0;
+  text-align: center;
+  margin-top: 2em; 
+  }
+nav li {
+  display: inline; 
+}
+nav a {
+  display: inline-block;
+  padding: 10px;
+}
+a {
+  color: rgb(250, 61, 3);
+  text-decoration: none; 
+  font-weight: bold;
+}
+a:hover {
+  color: black;
+  background: yellow;
+}
